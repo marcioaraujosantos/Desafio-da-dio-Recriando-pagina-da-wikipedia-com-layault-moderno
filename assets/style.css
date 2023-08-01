@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.5;
+}
+
+header {
+    padding: 15px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+.pesquisa, .acesso {
+    position: absolute;
+    margin-left: 43%;
+    top: 30px;
+    width: 220px;
+}
+ 
+.btn {
+    position: absolute;
+    margin-left: 61%;
+    top: 30px;
+}
+
+.acesso {
+    margin-left: 85%;
+}
+
+.barra {
+    padding: 15px;
+    border-top: 1px solid #0f0f0f;
+    border-bottom: 1px solid #0f0f0f;
+}
+
+.content {
+    max-width: 1440px;
+    margin: auto;
+    display: grid;
+    grid-gap: 3rem;
+    gap: 3rem;
+    grid-template-areas: "links main ancoras";
+    grid-template-columns: minmax(0,15rem) minmax(0,2.5fr) minmax(0,15rem);
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+span {
+    color: #ff0000;
+}
+
+h2 {
+    padding: 10px 10px;
+}
+
+p {
+    font-size: 14px;
+    padding-top: 14px;
+}
+
+.links {
+    border-right: 1px solid #cdcdcd;
+}
+
+.img-chatgpt {
+    width: 200px;
+    height: 180px;
+    padding-top: 10px;
+}
+
+.ancoras {
+    border-left: 1px solid #cdcdcd;
+    padding-left: 15px;
+}
+
+.ancors {
+    position: fixed;
+}
+
+footer {
+    min-height: 100px;
+    border-top: 1px solid #0a0808;
+}
+
+.p-footer, .links-footer{
+    font-size: 12px;
+    padding: 5px;
+}
+
+.img-footer {
+    position: absolute;
+    margin-left: 80%;
+}
+
+.lista-footer {
+    display: inline;
+}
+
+.a-footer {
+    padding: 10px;
+}
+
+
+
